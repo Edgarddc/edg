@@ -1,0 +1,118 @@
+body{
+	background-color: white;
+	background-image: url(https://thumbs.gfycat.com/AncientSplendidLacewing-size_restricted.gif);
+	background-position: center;
+	background-size: cover;
+	color:black;
+	background-color:white;
+ 	text-align: center;
+}
+
+.image-circle {
+	border-radius: 50%;
+}
+	
+.container{
+	width: 700px;
+	margin: 20px auto;
+
+}
+
+@media (min-width:  768px ) and (max-width: 992px) {
+	.container{
+		width: 720px;
+
+	}
+}
+
+@media (min-width:  576px) and (max-width:  767px) {
+	.container{
+		width: 540px;
+
+	}
+}
+
+@media(max-width: 575px) {
+	.container {
+		width: 100px;
+		margin: 20px 20px;
+	}
+}
+
+h1{
+	color: darkgray ;
+	font-family: 'Oldenburg', cursive;
+
+	text-align: center;
+}
+
+h2{
+	color: white;
+}
+
+h3{text-align: center;
+	color: darkblue;
+	font-family: 'Oldenburg', cursive;
+}
+
+h4{text-align: center;
+   color: darkgray; 
+   text-align: justify;
+   font-family: 'Oldenburg', cursive;
+}
+
+h5 {color:  darkblue;
+	text-align: center;
+	font-family: 'Oldenburg', cursive;
+}
+
+h6{
+	font-family: 'Oldenburg', cursive;
+}
+.text-white{
+	color: white;
+}
+
+font{text-align: center;
+}
+
+#video {
+	display: block;
+}
+
+.hobbies {
+	list-style: none;
+}
+
+i {
+	color: darkblue;
+	transition: color 0,5s ease;
+}
+
+i:hover {
+	 color: white;
+}
+
+.sports {
+	list-style: none; 
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	font-size: 40px;
+	padding: 1px;
+}
+
+div{
+	margin: 35px 150px;
+	padding: 30px 20px;
+	background-color: lightgrey;
+	border: 1px solid darkgray;
+	border-radius: 4px ;
+	box-shadow: 10px 10px 30px rgba(0, 0, 120, 1.0);
+}
